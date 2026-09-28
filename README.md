@@ -13,7 +13,7 @@ A [pi](https://github.com/earendil-works/pi) configuration that turns your agent
 **Example: learning why transformers use attention**
 
 ```
-You:    Teach me self-attention.
+You:    /teach Teach me self-attention.
 
 Agent:  Before we start: what does an RNN do with the word "it" in
         "The cat sat because it was tired"?
