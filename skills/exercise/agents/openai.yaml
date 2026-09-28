@@ -1,0 +1,14 @@
+interface:
+  display_name: Exercise
+  short_description: Turn a lesson into a portfolio coding exercise
+  default_prompt: Use $exercise with <learning.md> and <project-directory> to design
+    and scaffold my next coding exercise.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
