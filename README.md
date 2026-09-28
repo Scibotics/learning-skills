@@ -12,6 +12,7 @@ A [pi](https://github.com/earendil-works/pi) configuration that turns your agent
 
 **Example: learning why transformers use attention**
 
+Your agent teaches you step by step by understanding your baseline and building a lesson from there.
 ```
 You:    /teach Teach me self-attention.
 
@@ -28,11 +29,18 @@ Agent:  ✓ Right. So by the time the RNN reaches "it", "cat" only survives
         "it" look at "cat" directly? ...
         → builds up query/key/value as the answer to that question
         → quizzes you on why we scale by √d_k
+        ...
+```
 
+Create implementation exercises based on your lessons
+```
 You:    /exercise notes/self-attention.md projects/mini-attention
         → a 1–5 hour project where you implement attention yourself
+```
 
-Later:  interview me on transformers
+Recall what you've learned for interview prep
+```
+You:  /recall interview me on transformers
         → mock-interview questions graded against your own lesson notes
 ```
 
