@@ -4,8 +4,6 @@
 >
 > **My modifications:** I tailored the system specifically to computer science. After a lesson, it creates a software exercise for you to build (`exercise`), and it gives you recall questions to prepare for upcoming interviews (`recall`).
 
-[![video](assets/thumbnail.png)](https://www.youtube.com/watch?v=kzcI5F4tGiU)
-
 ## TL;DR
 
 A [pi](https://github.com/earendil-works/pi) configuration that turns your agent into a tutor. Instead of pasting a wall of text at you, it finds out what you already know, builds the idea up from first principles, and checks your understanding as you go. Then it helps you practice what you learned and tests whether it stuck.
